@@ -21,7 +21,7 @@ $amount = "5"; # amount you want to decrese on each live
 $amount_incr = "2"; # amount to increase
 # ==========================[ TOKENS ]=============================
 
-$botToken = "1632389798:AAECRqPKWVRSvex8FlgPasGu6pfnqIfAARU";
+$botToken = "1632389798:AAGhamH41LeABysgC-pIDCB44xhhG-WpB1A";
 $website = "https://api.telegram.org/bot".$botToken;
 $ar1 = array('www.example.com','www.exmaple2.com');  
 $site = $ar1[array_rand($ar1)]; # SITE ROTATION FOR APIS IF WANT
@@ -399,7 +399,7 @@ if(strpos($fim, '"type":"credit"') !== false) {
 
 
 $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, 'https://flashkiddrsa.xyz/bot/api2.php?lista='.$lista.'');
+  curl_setopt($ch, CURLOPT_URL, 'https://flashkiddxd.herokuapp.com/api2.php?lista='.$lista.'');
  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
  $result = curl_exec($ch);
  $info = curl_getinfo($ch);
@@ -488,7 +488,7 @@ if(strpos($fim, '"type":"credit"') !== false) {
 
 
 $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, 'https://flashkiddrsa.xyz/bot/api1.php?lista='.$lista.'');
+  curl_setopt($ch, CURLOPT_URL, 'https://flashkiddxd.herokuapp.com/api1.php?lista='.$lista.'');
  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
  $result = curl_exec($ch);
  $info = curl_getinfo($ch);
