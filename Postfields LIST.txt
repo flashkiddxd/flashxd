@@ -1,0 +1,26 @@
+           Address
+Card Owner [name] :- '.$firstname.'+'.$lastname.'  '.$name.'+'.$last.'
+
+[address]         :- '.$street.'
+[state]           :- '.$state.'
+[city]            :- '.$city.'
+[postal_code]     :- '.$zip.'
+[email]           :- '.$email.'
+[phone]           :-'.$phone.'
+
+          Card
+card[number]      :-'.$cc.'
+card[cvc]         :-'.$cvv.'
+card[exp_month]   :-'.$mes.'
+card[exp_year]    :-'.$ano.'
+
+id = '.$id.'
+token = '.$token.'
+
+echo "<b>1REQ Result:</b> $result1<br><br>";
+echo "<b>2REQ Result:</b> $result2<br><br>";
+
+
+
+[ Card Type:- :- ' . $type . ' | Level:- ' . $brand . ' | Bank:- ' . $bank . ' | Country:- ' . $country . ' | Bin:- ' . $bin . ' | Time: '.$time.' s   ]
+
